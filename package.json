@@ -1,0 +1,30 @@
+{
+  "name": "iso",
+  "version": "1.0.0",
+  "description": "iso8583",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "iso8583"
+  ],
+  "author": "Aldrin Reyes G",
+  "license": "MIT",
+  "nodemonConfig": {
+    "ignore": [
+      "test/*",
+      "docs/*",
+      "node_modules/*"
+    ],
+    "delay": "2500"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "hex-to-binary": "^1.0.1",
+    "node-json-config": "^0.0.5",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {}
+}

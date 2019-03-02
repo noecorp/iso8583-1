@@ -1,0 +1,770 @@
+[
+  {
+    "Field": 1,
+    "Type": "b",
+    "Length": 64,
+    "Usage": "Second Bitmap"
+  },
+  {
+    "Field": 2,
+    "Type": "n",
+    "Length": 19,
+    "Usage": "Primary account number (PAN)"
+  },
+  {
+    "Field": 3,
+    "Type": "n",
+    "Length": 6,
+    "Usage": "Processing code"
+  },
+  {
+    "Field": 4,
+    "Type": "n",
+    "Length": 12,
+    "Usage": "Amount, transaction"
+  },
+  {
+    "Field": 5,
+    "Type": "n",
+    "Length": 12,
+    "Usage": "Amount, settlement"
+  },
+  {
+    "Field": 6,
+    "Type": "n",
+    "Length": 12,
+    "Usage": "Amount, cardholder billing"
+  },
+  {
+    "Field": 7,
+    "Type": "n",
+    "Length": 10,
+    "Usage": "Transmission date & time"
+  },
+  {
+    "Field": 8,
+    "Type": "n",
+    "Length": 8,
+    "Usage": "Amount, cardholder billing fee"
+  },
+  {
+    "Field": 9,
+    "Type": "n",
+    "Length": 8,
+    "Usage": "Conversion rate, settlement"
+  },
+  {
+    "Field": 10,
+    "Type": "n",
+    "Length": 8,
+    "Usage": "Conversion rate, cardholder billing"
+  },
+  {
+    "Field": 11,
+    "Type": "n",
+    "Length": 6,
+    "Usage": "System trace audit number (STAN)"
+  },
+  {
+    "Field": 12,
+    "Type": "n",
+    "Length": 6,
+    "Usage": "Local transaction time (hhmmss)"
+  },
+  {
+    "Field": 13,
+    "Type": "n",
+    "Length": 4,
+    "Usage": "Local transaction date (MMDD)"
+  },
+  {
+    "Field": 14,
+    "Type": "n",
+    "Length": 4,
+    "Usage": "Expiration date"
+  },
+  {
+    "Field": 15,
+    "Type": "n",
+    "Length": 4,
+    "Usage": "Settlement date"
+  },
+  {
+    "Field": 16,
+    "Type": "n",
+    "Length": 4,
+    "Usage": "Currency conversion date"
+  },
+  {
+    "Field": 17,
+    "Type": "n",
+    "Length": 4,
+    "Usage": "Capture date"
+  },
+  {
+    "Field": 18,
+    "Type": "n",
+    "Length": 4,
+    "Usage": "Merchant type, or merchant category code"
+  },
+  {
+    "Field": 19,
+    "Type": "n",
+    "Length": 3,
+    "Usage": "Acquiring institution (country code)"
+  },
+  {
+    "Field": 20,
+    "Type": "n",
+    "Length": 3,
+    "Usage": "PAN extended (country code)"
+  },
+  {
+    "Field": 21,
+    "Type": "n",
+    "Length": 3,
+    "Usage": "Forwarding institution (country code)"
+  },
+  {
+    "Field": 22,
+    "Type": "n",
+    "Length": 3,
+    "Usage": "Point of service entry mode"
+  },
+  {
+    "Field": 23,
+    "Type": "n",
+    "Length": 3,
+    "Usage": "Application PAN sequence number"
+  },
+  {
+    "Field": 24,
+    "Type": "n",
+    "Length": 3,
+    "Usage": "Function code (ISO�8583:1993), or network international identifier (NII)"
+  },
+  {
+    "Field": 25,
+    "Type": "n",
+    "Length": 2,
+    "Usage": "Point of service condition code"
+  },
+  {
+    "Field": 26,
+    "Type": "n",
+    "Length": 2,
+    "Usage": "Point of service capture code"
+  },
+  {
+    "Field": 27,
+    "Type": "n",
+    "Length": 1,
+    "Usage": "Authorizing identification response length"
+  },
+  {
+    "Field": 28,
+    "Type": "x+n",
+    "Length": 8,
+    "Usage": "Amount, transaction fee"
+  },
+  {
+    "Field": 29,
+    "Type": "x+n",
+    "Length": 8,
+    "Usage": "Amount, settlement fee"
+  },
+  {
+    "Field": 30,
+    "Type": "x+n",
+    "Length": 8,
+    "Usage": "Amount, transaction processing fee"
+  },
+  {
+    "Field": 31,
+    "Type": "x+n",
+    "Length": 8,
+    "Usage": "Amount, settlement processing fee"
+  },
+  {
+    "Field": 32,
+    "Type": "n",
+    "Length": 11,
+    "Usage": "Acquiring institution identification code"
+  },
+  {
+    "Field": 33,
+    "Type": "n",
+    "Length": 11,
+    "Usage": "Forwarding institution identification code"
+  },
+  {
+    "Field": 34,
+    "Type": "ns",
+    "Length": 28,
+    "Usage": "Primary account number, extended"
+  },
+  {
+    "Field": 35,
+    "Type": "z",
+    "Length": 37,
+    "Usage": "Track 2 data"
+  },
+  {
+    "Field": 36,
+    "Type": "n",
+    "Length": 104,
+    "Usage": "Track 3 data"
+  },
+  {
+    "Field": 37,
+    "Type": "an",
+    "Length": 12,
+    "Usage": "Retrieval reference number"
+  },
+  {
+    "Field": 38,
+    "Type": "an",
+    "Length": 6,
+    "Usage": "Authorization identification response"
+  },
+  {
+    "Field": 39,
+    "Type": "an",
+    "Length": 2,
+    "Usage": "Response code"
+  },
+  {
+    "Field": 40,
+    "Type": "an",
+    "Length": 3,
+    "Usage": "Service restriction code"
+  },
+  {
+    "Field": 41,
+    "Type": "ans",
+    "Length": 8,
+    "Usage": "Card acceptor terminal identification"
+  },
+  {
+    "Field": 42,
+    "Type": "ans",
+    "Length": 15,
+    "Usage": "Card acceptor identification code"
+  },
+  {
+    "Field": 43,
+    "Type": "ans",
+    "Length": 40,
+    "Usage": "Card acceptor name/location (1-23 street address, 24-36 city, 37-38 state, 39-40 country)"
+  },
+  {
+    "Field": 44,
+    "Type": "an",
+    "Length": 25,
+    "Usage": "Additional response data"
+  },
+  {
+    "Field": 45,
+    "Type": "an",
+    "Length": 76,
+    "Usage": "Track 1 data"
+  },
+  {
+    "Field": 46,
+    "Type": "an",
+    "Length": 999,
+    "Usage": "Additional data (ISO)"
+  },
+  {
+    "Field": 47,
+    "Type": "an",
+    "Length": 999,
+    "Usage": "Additional data (national)"
+  },
+  {
+    "Field": 48,
+    "Type": "an",
+    "Length": 999,
+    "Usage": "Additional data (private)"
+  },
+  {
+    "Field": 49,
+    "Type": "a or n",
+    "Length": 3,
+    "Usage": "Currency code, transaction"
+  },
+  {
+    "Field": 50,
+    "Type": "a or n",
+    "Length": 3,
+    "Usage": "Currency code, settlement"
+  },
+  {
+    "Field": 51,
+    "Type": "a or n",
+    "Length": 3,
+    "Usage": "Currency code, cardholder billing"
+  },
+  {
+    "Field": 52,
+    "Type": "b",
+    "Length": 64,
+    "Usage": "Personal identification number�data"
+  },
+  {
+    "Field": 53,
+    "Type": "n",
+    "Length": 16,
+    "Usage": "Security related control information"
+  },
+  {
+    "Field": 54,
+    "Type": "an",
+    "Length": 120,
+    "Usage": "Additional amounts"
+  },
+  {
+    "Field": 55,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "ICC data ? EMV having multiple tags"
+  },
+  {
+    "Field": 56,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved (ISO)"
+  },
+  {
+    "Field": 57,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved (national)"
+  },
+  {
+    "Field": 58,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved (national)"
+  },
+  {
+    "Field": 59,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved (national)"
+  },
+  {
+    "Field": 60,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved (national) (e.g. settlement request: batch number, advice transactions: original transaction amount, batch upload: original MTI plus original RRN plus original STAN, etc)"
+  },
+  {
+    "Field": 61,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved (private) (e.g. CVV2/service code � transactions)"
+  },
+  {
+    "Field": 62,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved (private) (e.g. transactions: invoice number, key exchange transactions: TPK key, etc.)"
+  },
+  {
+    "Field": 63,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved (private)"
+  },
+  {
+    "Field": 64,
+    "Type": "b",
+    "Length": 64,
+    "Usage": "Message authentication code�(MAC)"
+  },
+  {
+    "Field": 65,
+    "Type": "b",
+    "Length": 1,
+    "Usage": "Extended bitmap indicator"
+  },
+  {
+    "Field": 66,
+    "Type": "n",
+    "Length": 1,
+    "Usage": "Settlement code"
+  },
+  {
+    "Field": 67,
+    "Type": "n",
+    "Length": 2,
+    "Usage": "Extended payment code"
+  },
+  {
+    "Field": 68,
+    "Type": "n",
+    "Length": 3,
+    "Usage": "Receiving institution country code"
+  },
+  {
+    "Field": 69,
+    "Type": "n",
+    "Length": 3,
+    "Usage": "Settlement institution country code"
+  },
+  {
+    "Field": 70,
+    "Type": "n",
+    "Length": 3,
+    "Usage": "Network management information code"
+  },
+  {
+    "Field": 71,
+    "Type": "n",
+    "Length": 4,
+    "Usage": "Message number"
+  },
+  {
+    "Field": 72,
+    "Type": "n",
+    "Length": 4,
+    "Usage": "Last message's number"
+  },
+  {
+    "Field": 73,
+    "Type": "n",
+    "Length": 6,
+    "Usage": "Action date (YYMMDD)"
+  },
+  {
+    "Field": 74,
+    "Type": "n",
+    "Length": 10,
+    "Usage": "Number of credits"
+  },
+  {
+    "Field": 75,
+    "Type": "n",
+    "Length": 10,
+    "Usage": "Credits, reversal number"
+  },
+  {
+    "Field": 76,
+    "Type": "n",
+    "Length": 10,
+    "Usage": "Number of debits"
+  },
+  {
+    "Field": 77,
+    "Type": "n",
+    "Length": 10,
+    "Usage": "Debits, reversal number"
+  },
+  {
+    "Field": 78,
+    "Type": "n",
+    "Length": 10,
+    "Usage": "Transfer number"
+  },
+  {
+    "Field": 79,
+    "Type": "n",
+    "Length": 10,
+    "Usage": "Transfer, reversal number"
+  },
+  {
+    "Field": 80,
+    "Type": "n",
+    "Length": 10,
+    "Usage": "Number of inquiries"
+  },
+  {
+    "Field": 81,
+    "Type": "n",
+    "Length": 10,
+    "Usage": "Number of authorizations"
+  },
+  {
+    "Field": 82,
+    "Type": "n",
+    "Length": 12,
+    "Usage": "Credits, processing fee amount"
+  },
+  {
+    "Field": 83,
+    "Type": "n",
+    "Length": 12,
+    "Usage": "Credits, transaction fee amount"
+  },
+  {
+    "Field": 84,
+    "Type": "n",
+    "Length": 12,
+    "Usage": "Debits, processing fee amount"
+  },
+  {
+    "Field": 85,
+    "Type": "n",
+    "Length": 12,
+    "Usage": "Debits, transaction fee amount"
+  },
+  {
+    "Field": 86,
+    "Type": "n",
+    "Length": 16,
+    "Usage": "Total amount of credits"
+  },
+  {
+    "Field": 87,
+    "Type": "n",
+    "Length": 16,
+    "Usage": "Credits, reversal amount"
+  },
+  {
+    "Field": 88,
+    "Type": "n",
+    "Length": 16,
+    "Usage": "Total amount of debits"
+  },
+  {
+    "Field": 89,
+    "Type": "n",
+    "Length": 16,
+    "Usage": "Debits, reversal amount"
+  },
+  {
+    "Field": 90,
+    "Type": "n",
+    "Length": 42,
+    "Usage": "Original data elements"
+  },
+  {
+    "Field": 91,
+    "Type": "an",
+    "Length": 1,
+    "Usage": "File update code"
+  },
+  {
+    "Field": 92,
+    "Type": "an",
+    "Length": 2,
+    "Usage": "File security code"
+  },
+  {
+    "Field": 93,
+    "Type": "an",
+    "Length": 5,
+    "Usage": "Response indicator"
+  },
+  {
+    "Field": 94,
+    "Type": "an",
+    "Length": 7,
+    "Usage": "Service indicator"
+  },
+  {
+    "Field": 95,
+    "Type": "an",
+    "Length": 42,
+    "Usage": "Replacement amounts"
+  },
+  {
+    "Field": 96,
+    "Type": "b",
+    "Length": 64,
+    "Usage": "Message security code"
+  },
+  {
+    "Field": 97,
+    "Type": "x+n",
+    "Length": 16,
+    "Usage": "Net settlement amount"
+  },
+  {
+    "Field": 98,
+    "Type": "ans",
+    "Length": 25,
+    "Usage": "Payee"
+  },
+  {
+    "Field": 99,
+    "Type": "n",
+    "Length": 11,
+    "Usage": "Settlement institution identification code"
+  },
+  {
+    "Field": 100,
+    "Type": "n",
+    "Length": 11,
+    "Usage": "Receiving institution identification code"
+  },
+  {
+    "Field": 101,
+    "Type": "ans",
+    "Length": 17,
+    "Usage": "File name"
+  },
+  {
+    "Field": 102,
+    "Type": "ans",
+    "Length": 28,
+    "Usage": "Account identification 1"
+  },
+  {
+    "Field": 103,
+    "Type": "ans",
+    "Length": 28,
+    "Usage": "Account identification 2"
+  },
+  {
+    "Field": 104,
+    "Type": "ans",
+    "Length": 100,
+    "Usage": "Transaction description"
+  },
+  {
+    "Field": 105,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved for ISO use"
+  },
+  {
+    "Field": 106,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved for ISO use"
+  },
+  {
+    "Field": 107,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved for ISO use"
+  },
+  {
+    "Field": 108,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved for ISO use"
+  },
+  {
+    "Field": 109,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved for ISO use"
+  },
+  {
+    "Field": 110,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved for ISO use"
+  },
+  {
+    "Field": 111,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved for ISO use"
+  },
+  {
+    "Field": 112,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved for national use"
+  },
+  {
+    "Field": 113,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved for national use"
+  },
+  {
+    "Field": 114,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved for national use"
+  },
+  {
+    "Field": 115,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved for national use"
+  },
+  {
+    "Field": 116,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved for national use"
+  },
+  {
+    "Field": 117,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved for national use"
+  },
+  {
+    "Field": 118,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved for national use"
+  },
+  {
+    "Field": 119,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved for national use"
+  },
+  {
+    "Field": 120,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved for private use"
+  },
+  {
+    "Field": 121,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved for private use"
+  },
+  {
+    "Field": 122,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved for private use"
+  },
+  {
+    "Field": 123,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved for private use"
+  },
+  {
+    "Field": 124,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved for private use"
+  },
+  {
+    "Field": 125,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved for private use"
+  },
+  {
+    "Field": 126,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved for private use"
+  },
+  {
+    "Field": 127,
+    "Type": "ans",
+    "Length": 999,
+    "Usage": "Reserved for private use"
+  },
+  {
+    "Field": 128,
+    "Type": "b",
+    "Length": 64,
+    "Usage": "Message authentication code"
+  }
+]
